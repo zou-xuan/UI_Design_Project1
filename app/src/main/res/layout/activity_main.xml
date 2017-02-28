@@ -47,8 +47,9 @@
         <EditText
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:layout_marginRight="@dimen/activity_horizontal_margin"
-            android:id="@+id/amount" />
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:id="@+id/amount"
+            android:inputType="number" />
     </LinearLayout>
 
     <LinearLayout
@@ -70,7 +71,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/reps"
-                android:text="@string/reps"/>
+                android:text="@string/reps"
+                android:checked="true"/>
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -93,6 +95,29 @@
             android:layout_height="wrap_content"
             android:textSize="20sp"
             android:id="@+id/convert_result"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/equalto"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/equaltoSpinner"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"></Spinner>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:id="@+id/equaltoResult"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"/>
     </LinearLayout>
 

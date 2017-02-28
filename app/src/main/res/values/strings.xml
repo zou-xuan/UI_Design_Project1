@@ -1,12 +1,13 @@
 <resources>
-    <string name="app_name">"CalorieConverter "</string>
+    <string name="app_name">"CaloriesConverter "</string>
     <string name="convert">"Convert"</string>
-    <string name="input">"Input your exercise here"</string>
+    <string name="input">"Calories Converter"</string>
     <string name="exercise">"Exercise"</string>
     <string name="amount">"Amount"</string>
     <string name="unit">"Reps/Minutes"</string>
     <string name="reps">"Reps"</string>
     <string name="minutes">"Minutes"</string>
+    <string name="equalto">"Equals to "</string>
     <string-array name="exercise_types">
         <item>"Pushup"</item>
         <item>"Situp"</item>

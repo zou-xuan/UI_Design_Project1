@@ -35,4 +35,16 @@ public class Converter {
         double calorie=convertFromExercise(exercise,amount,typeMap.get(exercise));
         return (int)(calorie*map.get(targetExercise)/100);
     }
+
+    public String getTypeString(String exercise){
+        if(!typeMap.containsKey(exercise)){
+            return "";
+        }
+        if(typeMap.get(exercise)==RadioType.MINUTES){
+            return "minutes";
+        }
+        else{
+            return "reps";
+        }
+    }
 }
